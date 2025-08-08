@@ -1,0 +1,16 @@
+use UNI
+
+Create table Empleados(
+id int primary key identity (1,1) not null
+N_de_empleados varchar (20),
+nombre varchar (20),
+Apellido_paterno varchar (20),
+apellido_materno varchar (20),
+fecha_de_nacimiento varchar (20),
+RFC varchar (20),
+centro_de_trabajo varchar (20),
+Puesto varchar (20),
+Descripcion_de_puesto varchar (20),
+Directivo varchar (20),
+
+);
